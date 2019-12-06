@@ -17,6 +17,7 @@ import io.flutter.plugin.common.PluginRegistry.Registrar;
 /**
  * AppcenterPlugin
  */
+@SuppressWarnings("unchecked")
 public class AppcenterPlugin implements MethodCallHandler {
 
   private Registrar registrar;
